@@ -96,7 +96,7 @@ if __name__ == "__main__":
 #events
 @bot.event
 async def on_message(message):
-	if message.content.upper().startswith('NIGGER'):
+	if message.content.upper().startswith('fuck'):
 		await bot.send_message(message.channel, "Please do not use that word here.")
 
 	await bot.process_commands(message)
